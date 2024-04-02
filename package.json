@@ -1,0 +1,16 @@
+{
+  "name": "trykistra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss style.css -w",
+    "live-server": "live-server",
+    "start": "npm-run-all --parallel live-server watch:sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
